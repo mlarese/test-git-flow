@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class BookShelfRunner implements CommandLineRunner {
     @Override
+
     public void run(String... args) throws Exception {
         BookShelf bookShelf = new BookShelf();
         bookShelf.setId(1L);
