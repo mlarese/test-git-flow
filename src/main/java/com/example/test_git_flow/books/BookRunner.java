@@ -13,7 +13,7 @@ public class BookRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        for (int i = 0; i < 35; i++) {
+        for (int i = 0; i < 5; i++) {
             Book book = new Book();
             book.setId(faker.number().randomNumber());
             book.setTitle(faker.book().title());
