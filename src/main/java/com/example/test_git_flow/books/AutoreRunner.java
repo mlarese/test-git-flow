@@ -14,6 +14,7 @@ public class AutoreRunner implements CommandLineRunner {
 
         System.out.println("--------------------------" );
         System.out.println("Book: " + book);
+        System.out.println("--------------------------" );
 
     }
 }
