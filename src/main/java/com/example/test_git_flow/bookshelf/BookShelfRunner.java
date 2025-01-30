@@ -12,7 +12,6 @@ public class BookShelfRunner implements CommandLineRunner {
         bookShelf.setName("Java Programming");
         bookShelf.setLocation("A1");
 
-        System.out.println("--------------------------" );
         System.out.println("BookShelf: " + bookShelf);
         System.out.println("--------------------------" );
         System.out.println("--------------------------" );
