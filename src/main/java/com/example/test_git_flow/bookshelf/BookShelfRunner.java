@@ -15,5 +15,6 @@ public class BookShelfRunner implements CommandLineRunner {
         System.out.println("--------------------------" );
         System.out.println("BookShelf: " + bookShelf);
         System.out.println("--------------------------" );
+        System.out.println("--------------------------" );
     }
 }
